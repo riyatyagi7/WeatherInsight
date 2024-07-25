@@ -21,8 +21,8 @@ export default function WeatherApp(){
     return(
         <div className="Back"  >
            
-         
-            <div style={{textAlign: "center"}}>
+           <div className="content-center"> 
+          {/* </div> <div style={{textAlign: "center"}}> */}
             <h2>Weather Insights - Stay Prepared </h2>
             <SearchBox updateInfo={updateInfo}/>
             <InfoBox info={weatherInfo}/>
